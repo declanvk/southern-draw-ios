@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDE8D61B2197354C00477C2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE8D61A2197354C00477C2F /* AppDelegate.swift */; };
+		CDE8D61D2197354C00477C2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE8D61C2197354C00477C2F /* ViewController.swift */; };
+		CDE8D6202197354C00477C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE8D61E2197354C00477C2F /* Main.storyboard */; };
+		CDE8D6222197354C00477C2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDE8D6212197354C00477C2F /* Assets.xcassets */; };
+		CDE8D6252197354C00477C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE8D6232197354C00477C2F /* LaunchScreen.storyboard */; };
+		CDE8D6302197354C00477C2F /* SouthernDrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE8D62F2197354C00477C2F /* SouthernDrawTests.swift */; };
+		CDE8D63B2197354C00477C2F /* SouthernDrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE8D63A2197354C00477C2F /* SouthernDrawUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDE8D62C2197354C00477C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE8D60F2197354C00477C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE8D6162197354C00477C2F;
+			remoteInfo = SouthernDraw;
+		};
+		CDE8D6372197354C00477C2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDE8D60F2197354C00477C2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDE8D6162197354C00477C2F;
+			remoteInfo = SouthernDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDE8D6172197354C00477C2F /* SouthernDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SouthernDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE8D61A2197354C00477C2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDE8D61C2197354C00477C2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDE8D61F2197354C00477C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDE8D6212197354C00477C2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDE8D6242197354C00477C2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDE8D6262197354C00477C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE8D62B2197354C00477C2F /* SouthernDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SouthernDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE8D62F2197354C00477C2F /* SouthernDrawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthernDrawTests.swift; sourceTree = "<group>"; };
+		CDE8D6312197354C00477C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE8D6362197354C00477C2F /* SouthernDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SouthernDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE8D63A2197354C00477C2F /* SouthernDrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthernDrawUITests.swift; sourceTree = "<group>"; };
+		CDE8D63C2197354C00477C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE8D6142197354C00477C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE8D6282197354C00477C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE8D6332197354C00477C2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDE8D60E2197354C00477C2F = {
+			isa = PBXGroup;
+			children = (
+				CDE8D6192197354C00477C2F /* SouthernDraw */,
+				CDE8D62E2197354C00477C2F /* SouthernDrawTests */,
+				CDE8D6392197354C00477C2F /* SouthernDrawUITests */,
+				CDE8D6182197354C00477C2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE8D6182197354C00477C2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE8D6172197354C00477C2F /* SouthernDraw.app */,
+				CDE8D62B2197354C00477C2F /* SouthernDrawTests.xctest */,
+				CDE8D6362197354C00477C2F /* SouthernDrawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE8D6192197354C00477C2F /* SouthernDraw */ = {
+			isa = PBXGroup;
+			children = (
+				CDE8D61A2197354C00477C2F /* AppDelegate.swift */,
+				CDE8D61C2197354C00477C2F /* ViewController.swift */,
+				CDE8D61E2197354C00477C2F /* Main.storyboard */,
+				CDE8D6212197354C00477C2F /* Assets.xcassets */,
+				CDE8D6232197354C00477C2F /* LaunchScreen.storyboard */,
+				CDE8D6262197354C00477C2F /* Info.plist */,
+			);
+			path = SouthernDraw;
+			sourceTree = "<group>";
+		};
+		CDE8D62E2197354C00477C2F /* SouthernDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE8D62F2197354C00477C2F /* SouthernDrawTests.swift */,
+				CDE8D6312197354C00477C2F /* Info.plist */,
+			);
+			path = SouthernDrawTests;
+			sourceTree = "<group>";
+		};
+		CDE8D6392197354C00477C2F /* SouthernDrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDE8D63A2197354C00477C2F /* SouthernDrawUITests.swift */,
+				CDE8D63C2197354C00477C2F /* Info.plist */,
+			);
+			path = SouthernDrawUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE8D6162197354C00477C2F /* SouthernDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE8D63F2197354C00477C2F /* Build configuration list for PBXNativeTarget "SouthernDraw" */;
+			buildPhases = (
+				CDE8D6132197354C00477C2F /* Sources */,
+				CDE8D6142197354C00477C2F /* Frameworks */,
+				CDE8D6152197354C00477C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SouthernDraw;
+			productName = SouthernDraw;
+			productReference = CDE8D6172197354C00477C2F /* SouthernDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDE8D62A2197354C00477C2F /* SouthernDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE8D6422197354C00477C2F /* Build configuration list for PBXNativeTarget "SouthernDrawTests" */;
+			buildPhases = (
+				CDE8D6272197354C00477C2F /* Sources */,
+				CDE8D6282197354C00477C2F /* Frameworks */,
+				CDE8D6292197354C00477C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE8D62D2197354C00477C2F /* PBXTargetDependency */,
+			);
+			name = SouthernDrawTests;
+			productName = SouthernDrawTests;
+			productReference = CDE8D62B2197354C00477C2F /* SouthernDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDE8D6352197354C00477C2F /* SouthernDrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE8D6452197354C00477C2F /* Build configuration list for PBXNativeTarget "SouthernDrawUITests" */;
+			buildPhases = (
+				CDE8D6322197354C00477C2F /* Sources */,
+				CDE8D6332197354C00477C2F /* Frameworks */,
+				CDE8D6342197354C00477C2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDE8D6382197354C00477C2F /* PBXTargetDependency */,
+			);
+			name = SouthernDrawUITests;
+			productName = SouthernDrawUITests;
+			productReference = CDE8D6362197354C00477C2F /* SouthernDrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE8D60F2197354C00477C2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Patrick Beninga";
+				TargetAttributes = {
+					CDE8D6162197354C00477C2F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CDE8D62A2197354C00477C2F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDE8D6162197354C00477C2F;
+					};
+					CDE8D6352197354C00477C2F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CDE8D6162197354C00477C2F;
+					};
+				};
+			};
+			buildConfigurationList = CDE8D6122197354C00477C2F /* Build configuration list for PBXProject "SouthernDraw" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDE8D60E2197354C00477C2F;
+			productRefGroup = CDE8D6182197354C00477C2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE8D6162197354C00477C2F /* SouthernDraw */,
+				CDE8D62A2197354C00477C2F /* SouthernDrawTests */,
+				CDE8D6352197354C00477C2F /* SouthernDrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDE8D6152197354C00477C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE8D6252197354C00477C2F /* LaunchScreen.storyboard in Resources */,
+				CDE8D6222197354C00477C2F /* Assets.xcassets in Resources */,
+				CDE8D6202197354C00477C2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE8D6292197354C00477C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE8D6342197354C00477C2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE8D6132197354C00477C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE8D61D2197354C00477C2F /* ViewController.swift in Sources */,
+				CDE8D61B2197354C00477C2F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE8D6272197354C00477C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE8D6302197354C00477C2F /* SouthernDrawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDE8D6322197354C00477C2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE8D63B2197354C00477C2F /* SouthernDrawUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDE8D62D2197354C00477C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE8D6162197354C00477C2F /* SouthernDraw */;
+			targetProxy = CDE8D62C2197354C00477C2F /* PBXContainerItemProxy */;
+		};
+		CDE8D6382197354C00477C2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDE8D6162197354C00477C2F /* SouthernDraw */;
+			targetProxy = CDE8D6372197354C00477C2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDE8D61E2197354C00477C2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE8D61F2197354C00477C2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDE8D6232197354C00477C2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDE8D6242197354C00477C2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDE8D63D2197354C00477C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDE8D63E2197354C00477C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDE8D6402197354C00477C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW43L4RC6S;
+				INFOPLIST_FILE = SouthernDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beninga.SouthernDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDE8D6412197354C00477C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW43L4RC6S;
+				INFOPLIST_FILE = SouthernDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beninga.SouthernDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDE8D6432197354C00477C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW43L4RC6S;
+				INFOPLIST_FILE = SouthernDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beninga.SouthernDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SouthernDraw.app/SouthernDraw";
+			};
+			name = Debug;
+		};
+		CDE8D6442197354C00477C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW43L4RC6S;
+				INFOPLIST_FILE = SouthernDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beninga.SouthernDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SouthernDraw.app/SouthernDraw";
+			};
+			name = Release;
+		};
+		CDE8D6462197354C00477C2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW43L4RC6S;
+				INFOPLIST_FILE = SouthernDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beninga.SouthernDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SouthernDraw;
+			};
+			name = Debug;
+		};
+		CDE8D6472197354C00477C2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UW43L4RC6S;
+				INFOPLIST_FILE = SouthernDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Beninga.SouthernDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SouthernDraw;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE8D6122197354C00477C2F /* Build configuration list for PBXProject "SouthernDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE8D63D2197354C00477C2F /* Debug */,
+				CDE8D63E2197354C00477C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE8D63F2197354C00477C2F /* Build configuration list for PBXNativeTarget "SouthernDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE8D6402197354C00477C2F /* Debug */,
+				CDE8D6412197354C00477C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE8D6422197354C00477C2F /* Build configuration list for PBXNativeTarget "SouthernDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE8D6432197354C00477C2F /* Debug */,
+				CDE8D6442197354C00477C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE8D6452197354C00477C2F /* Build configuration list for PBXNativeTarget "SouthernDrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE8D6462197354C00477C2F /* Debug */,
+				CDE8D6472197354C00477C2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE8D60F2197354C00477C2F /* Project object */;
+}
