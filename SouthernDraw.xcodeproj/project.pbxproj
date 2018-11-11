@@ -7,6 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37555F9840D8998BBBB3E9BC /* Pods_SouthernDrawTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB670A901185AB2F8E53066F /* Pods_SouthernDrawTests.framework */; };
+		CDB579D221975A1700F8B1E1 /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579B421975A1700F8B1E1 /* SocketAckEmitter.swift */; };
+		CDB579D321975A1700F8B1E1 /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579B521975A1700F8B1E1 /* SocketAckManager.swift */; };
+		CDB579D421975A1700F8B1E1 /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579B721975A1700F8B1E1 /* SocketAnyEvent.swift */; };
+		CDB579D521975A1700F8B1E1 /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579B821975A1700F8B1E1 /* SocketEventHandler.swift */; };
+		CDB579D621975A1700F8B1E1 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579B921975A1700F8B1E1 /* SocketIOClient.swift */; };
+		CDB579D721975A1700F8B1E1 /* SocketIOClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579BA21975A1700F8B1E1 /* SocketIOClientConfiguration.swift */; };
+		CDB579D821975A1700F8B1E1 /* SocketIOClientOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579BB21975A1700F8B1E1 /* SocketIOClientOption.swift */; };
+		CDB579D921975A1700F8B1E1 /* SocketIOClientSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579BC21975A1700F8B1E1 /* SocketIOClientSpec.swift */; };
+		CDB579DA21975A1700F8B1E1 /* SocketIOStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579BD21975A1700F8B1E1 /* SocketIOStatus.swift */; };
+		CDB579DB21975A1700F8B1E1 /* SocketRawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579BE21975A1700F8B1E1 /* SocketRawView.swift */; };
+		CDB579DC21975A1700F8B1E1 /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579C021975A1700F8B1E1 /* SocketEngine.swift */; };
+		CDB579DD21975A1700F8B1E1 /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579C121975A1700F8B1E1 /* SocketEngineClient.swift */; };
+		CDB579DE21975A1700F8B1E1 /* SocketEnginePacketType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579C221975A1700F8B1E1 /* SocketEnginePacketType.swift */; };
+		CDB579DF21975A1700F8B1E1 /* SocketEnginePollable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579C321975A1700F8B1E1 /* SocketEnginePollable.swift */; };
+		CDB579E021975A1700F8B1E1 /* SocketEngineSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579C421975A1700F8B1E1 /* SocketEngineSpec.swift */; };
+		CDB579E121975A1700F8B1E1 /* SocketEngineWebsocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579C521975A1700F8B1E1 /* SocketEngineWebsocket.swift */; };
+		CDB579E221975A1700F8B1E1 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579C721975A1700F8B1E1 /* SocketManager.swift */; };
+		CDB579E321975A1700F8B1E1 /* SocketManagerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579C821975A1700F8B1E1 /* SocketManagerSpec.swift */; };
+		CDB579E421975A1700F8B1E1 /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579CA21975A1700F8B1E1 /* SocketPacket.swift */; };
+		CDB579E521975A1700F8B1E1 /* SocketParsable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579CB21975A1700F8B1E1 /* SocketParsable.swift */; };
+		CDB579E621975A1700F8B1E1 /* SocketExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579CD21975A1700F8B1E1 /* SocketExtensions.swift */; };
+		CDB579E721975A1700F8B1E1 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579CE21975A1700F8B1E1 /* SocketLogger.swift */; };
+		CDB579E821975A1700F8B1E1 /* SocketStringReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579CF21975A1700F8B1E1 /* SocketStringReader.swift */; };
+		CDB579E921975A1700F8B1E1 /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579D021975A1700F8B1E1 /* SocketTypes.swift */; };
+		CDB579EA21975A1700F8B1E1 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB579D121975A1700F8B1E1 /* SSLSecurity.swift */; };
+		CDC2E61121977AE700B1EA83 /* iphoneX.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC2E61021977AE700B1EA83 /* iphoneX.png */; };
+		CDC2E61321977D3000B1EA83 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC2E61221977D3000B1EA83 /* logo.png */; };
+		CDC2E6162197811500B1EA83 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC2E6152197811500B1EA83 /* button.png */; };
+		CDC2E61921979E2E00B1EA83 /* Caviar_Dreams_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDC2E61821979E1000B1EA83 /* Caviar_Dreams_Bold.ttf */; };
+		CDC2E61B21979F4500B1EA83 /* lefthand.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC2E61A21979F4400B1EA83 /* lefthand.png */; };
+		CDC2E61D21979F4D00B1EA83 /* righthand.png in Resources */ = {isa = PBXBuildFile; fileRef = CDC2E61C21979F4C00B1EA83 /* righthand.png */; };
 		CDE8D61B2197354C00477C2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE8D61A2197354C00477C2F /* AppDelegate.swift */; };
 		CDE8D61D2197354C00477C2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE8D61C2197354C00477C2F /* ViewController.swift */; };
 		CDE8D6202197354C00477C2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE8D61E2197354C00477C2F /* Main.storyboard */; };
@@ -14,6 +46,8 @@
 		CDE8D6252197354C00477C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDE8D6232197354C00477C2F /* LaunchScreen.storyboard */; };
 		CDE8D6302197354C00477C2F /* SouthernDrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE8D62F2197354C00477C2F /* SouthernDrawTests.swift */; };
 		CDE8D63B2197354C00477C2F /* SouthernDrawUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE8D63A2197354C00477C2F /* SouthernDrawUITests.swift */; };
+		CDE8D649219744D300477C2F /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CDE8D648219744D300477C2F /* background.jpg */; };
+		F372ED9264BF8277AB816CCC /* Pods_SouthernDrawUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F4862352A9E7FB2338E2BDC /* Pods_SouthernDrawUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +68,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3848A646A8F37DAAA54C7854 /* Pods_SouthernDraw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SouthernDraw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		420AC555E273FAE7B4515DA0 /* Pods-SouthernDrawTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouthernDrawTests.release.xcconfig"; path = "Target Support Files/Pods-SouthernDrawTests/Pods-SouthernDrawTests.release.xcconfig"; sourceTree = "<group>"; };
+		746AD475FE3B5D79E9B49DF0 /* Pods-SouthernDrawUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouthernDrawUITests.release.xcconfig"; path = "Target Support Files/Pods-SouthernDrawUITests/Pods-SouthernDrawUITests.release.xcconfig"; sourceTree = "<group>"; };
+		81B0429A1802123CB9F7EA64 /* Pods-SouthernDraw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouthernDraw.debug.xcconfig"; path = "Target Support Files/Pods-SouthernDraw/Pods-SouthernDraw.debug.xcconfig"; sourceTree = "<group>"; };
+		8F4862352A9E7FB2338E2BDC /* Pods_SouthernDrawUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SouthernDrawUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		941D3AFF7957E7F5A6D9801D /* Pods-SouthernDraw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouthernDraw.release.xcconfig"; path = "Target Support Files/Pods-SouthernDraw/Pods-SouthernDraw.release.xcconfig"; sourceTree = "<group>"; };
+		9991A1941772F91F9D161B92 /* Pods-SouthernDrawUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouthernDrawUITests.debug.xcconfig"; path = "Target Support Files/Pods-SouthernDrawUITests/Pods-SouthernDrawUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A90AC9AFD0FB195887804958 /* Pods-SouthernDrawTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouthernDrawTests.debug.xcconfig"; path = "Target Support Files/Pods-SouthernDrawTests/Pods-SouthernDrawTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BB670A901185AB2F8E53066F /* Pods_SouthernDrawTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SouthernDrawTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDB579B421975A1700F8B1E1 /* SocketAckEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckEmitter.swift; sourceTree = "<group>"; };
+		CDB579B521975A1700F8B1E1 /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAckManager.swift; sourceTree = "<group>"; };
+		CDB579B721975A1700F8B1E1 /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketAnyEvent.swift; sourceTree = "<group>"; };
+		CDB579B821975A1700F8B1E1 /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEventHandler.swift; sourceTree = "<group>"; };
+		CDB579B921975A1700F8B1E1 /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClient.swift; sourceTree = "<group>"; };
+		CDB579BA21975A1700F8B1E1 /* SocketIOClientConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientConfiguration.swift; sourceTree = "<group>"; };
+		CDB579BB21975A1700F8B1E1 /* SocketIOClientOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientOption.swift; sourceTree = "<group>"; };
+		CDB579BC21975A1700F8B1E1 /* SocketIOClientSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOClientSpec.swift; sourceTree = "<group>"; };
+		CDB579BD21975A1700F8B1E1 /* SocketIOStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOStatus.swift; sourceTree = "<group>"; };
+		CDB579BE21975A1700F8B1E1 /* SocketRawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketRawView.swift; sourceTree = "<group>"; };
+		CDB579C021975A1700F8B1E1 /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
+		CDB579C121975A1700F8B1E1 /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineClient.swift; sourceTree = "<group>"; };
+		CDB579C221975A1700F8B1E1 /* SocketEnginePacketType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEnginePacketType.swift; sourceTree = "<group>"; };
+		CDB579C321975A1700F8B1E1 /* SocketEnginePollable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEnginePollable.swift; sourceTree = "<group>"; };
+		CDB579C421975A1700F8B1E1 /* SocketEngineSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineSpec.swift; sourceTree = "<group>"; };
+		CDB579C521975A1700F8B1E1 /* SocketEngineWebsocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketEngineWebsocket.swift; sourceTree = "<group>"; };
+		CDB579C721975A1700F8B1E1 /* SocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
+		CDB579C821975A1700F8B1E1 /* SocketManagerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManagerSpec.swift; sourceTree = "<group>"; };
+		CDB579CA21975A1700F8B1E1 /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketPacket.swift; sourceTree = "<group>"; };
+		CDB579CB21975A1700F8B1E1 /* SocketParsable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketParsable.swift; sourceTree = "<group>"; };
+		CDB579CD21975A1700F8B1E1 /* SocketExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketExtensions.swift; sourceTree = "<group>"; };
+		CDB579CE21975A1700F8B1E1 /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketLogger.swift; sourceTree = "<group>"; };
+		CDB579CF21975A1700F8B1E1 /* SocketStringReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketStringReader.swift; sourceTree = "<group>"; };
+		CDB579D021975A1700F8B1E1 /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTypes.swift; sourceTree = "<group>"; };
+		CDB579D121975A1700F8B1E1 /* SSLSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSLSecurity.swift; sourceTree = "<group>"; };
+		CDB57A2621975AA800F8B1E1 /* libapple_crypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libapple_crypto.tbd; path = usr/lib/libapple_crypto.tbd; sourceTree = SDKROOT; };
+		CDC2E61021977AE700B1EA83 /* iphoneX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphoneX.png; path = ../../../Downloads/iphoneX.png; sourceTree = "<group>"; };
+		CDC2E61221977D3000B1EA83 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = "../../../Downloads/iphone assets/logo.png"; sourceTree = "<group>"; };
+		CDC2E61421977F8D00B1EA83 /* Caviar_Dreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Caviar_Dreams_Bold.ttf; path = ../../../Downloads/Caviar_Dreams_Bold.ttf; sourceTree = "<group>"; };
+		CDC2E6152197811500B1EA83 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = "../../../Downloads/iphone assets/button.png"; sourceTree = "<group>"; };
+		CDC2E61821979E1000B1EA83 /* Caviar_Dreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Caviar_Dreams_Bold.ttf; sourceTree = "<group>"; };
+		CDC2E61A21979F4400B1EA83 /* lefthand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lefthand.png; path = "../../../Downloads/iphone assets/lefthand.png"; sourceTree = "<group>"; };
+		CDC2E61C21979F4C00B1EA83 /* righthand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = righthand.png; path = "../../../Downloads/iphone assets/righthand.png"; sourceTree = "<group>"; };
 		CDE8D6172197354C00477C2F /* SouthernDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SouthernDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE8D61A2197354C00477C2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDE8D61C2197354C00477C2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +123,7 @@
 		CDE8D6362197354C00477C2F /* SouthernDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SouthernDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDE8D63A2197354C00477C2F /* SouthernDrawUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthernDrawUITests.swift; sourceTree = "<group>"; };
 		CDE8D63C2197354C00477C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE8D648219744D300477C2F /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37555F9840D8998BBBB3E9BC /* Pods_SouthernDrawTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +146,143 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F372ED9264BF8277AB816CCC /* Pods_SouthernDrawUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58A6DFC4634B4A00116BA504 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81B0429A1802123CB9F7EA64 /* Pods-SouthernDraw.debug.xcconfig */,
+				941D3AFF7957E7F5A6D9801D /* Pods-SouthernDraw.release.xcconfig */,
+				A90AC9AFD0FB195887804958 /* Pods-SouthernDrawTests.debug.xcconfig */,
+				420AC555E273FAE7B4515DA0 /* Pods-SouthernDrawTests.release.xcconfig */,
+				9991A1941772F91F9D161B92 /* Pods-SouthernDrawUITests.debug.xcconfig */,
+				746AD475FE3B5D79E9B49DF0 /* Pods-SouthernDrawUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CDB579B121975A1700F8B1E1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CDB579B221975A1700F8B1E1 /* SocketIO */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		CDB579B221975A1700F8B1E1 /* SocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				CDB579B321975A1700F8B1E1 /* Ack */,
+				CDB579B621975A1700F8B1E1 /* Client */,
+				CDB579BF21975A1700F8B1E1 /* Engine */,
+				CDB579C621975A1700F8B1E1 /* Manager */,
+				CDB579C921975A1700F8B1E1 /* Parse */,
+				CDB579CC21975A1700F8B1E1 /* Util */,
+			);
+			path = SocketIO;
+			sourceTree = "<group>";
+		};
+		CDB579B321975A1700F8B1E1 /* Ack */ = {
+			isa = PBXGroup;
+			children = (
+				CDB579B421975A1700F8B1E1 /* SocketAckEmitter.swift */,
+				CDB579B521975A1700F8B1E1 /* SocketAckManager.swift */,
+			);
+			path = Ack;
+			sourceTree = "<group>";
+		};
+		CDB579B621975A1700F8B1E1 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				CDB579B721975A1700F8B1E1 /* SocketAnyEvent.swift */,
+				CDB579B821975A1700F8B1E1 /* SocketEventHandler.swift */,
+				CDB579B921975A1700F8B1E1 /* SocketIOClient.swift */,
+				CDB579BA21975A1700F8B1E1 /* SocketIOClientConfiguration.swift */,
+				CDB579BB21975A1700F8B1E1 /* SocketIOClientOption.swift */,
+				CDB579BC21975A1700F8B1E1 /* SocketIOClientSpec.swift */,
+				CDB579BD21975A1700F8B1E1 /* SocketIOStatus.swift */,
+				CDB579BE21975A1700F8B1E1 /* SocketRawView.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		CDB579BF21975A1700F8B1E1 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				CDB579C021975A1700F8B1E1 /* SocketEngine.swift */,
+				CDB579C121975A1700F8B1E1 /* SocketEngineClient.swift */,
+				CDB579C221975A1700F8B1E1 /* SocketEnginePacketType.swift */,
+				CDB579C321975A1700F8B1E1 /* SocketEnginePollable.swift */,
+				CDB579C421975A1700F8B1E1 /* SocketEngineSpec.swift */,
+				CDB579C521975A1700F8B1E1 /* SocketEngineWebsocket.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		CDB579C621975A1700F8B1E1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CDB579C721975A1700F8B1E1 /* SocketManager.swift */,
+				CDB579C821975A1700F8B1E1 /* SocketManagerSpec.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CDB579C921975A1700F8B1E1 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				CDB579CA21975A1700F8B1E1 /* SocketPacket.swift */,
+				CDB579CB21975A1700F8B1E1 /* SocketParsable.swift */,
+			);
+			path = Parse;
+			sourceTree = "<group>";
+		};
+		CDB579CC21975A1700F8B1E1 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CDB579CD21975A1700F8B1E1 /* SocketExtensions.swift */,
+				CDB579CE21975A1700F8B1E1 /* SocketLogger.swift */,
+				CDB579CF21975A1700F8B1E1 /* SocketStringReader.swift */,
+				CDB579D021975A1700F8B1E1 /* SocketTypes.swift */,
+				CDB579D121975A1700F8B1E1 /* SSLSecurity.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		CDB57A2521975AA800F8B1E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDB57A2621975AA800F8B1E1 /* libapple_crypto.tbd */,
+				3848A646A8F37DAAA54C7854 /* Pods_SouthernDraw.framework */,
+				BB670A901185AB2F8E53066F /* Pods_SouthernDrawTests.framework */,
+				8F4862352A9E7FB2338E2BDC /* Pods_SouthernDrawUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDC2E61721979E0000B1EA83 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CDC2E61821979E1000B1EA83 /* Caviar_Dreams_Bold.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		CDE8D60E2197354C00477C2F = {
 			isa = PBXGroup;
 			children = (
+				CDC2E61721979E0000B1EA83 /* Resources */,
 				CDE8D6192197354C00477C2F /* SouthernDraw */,
 				CDE8D62E2197354C00477C2F /* SouthernDrawTests */,
 				CDE8D6392197354C00477C2F /* SouthernDrawUITests */,
 				CDE8D6182197354C00477C2F /* Products */,
+				CDB57A2521975AA800F8B1E1 /* Frameworks */,
+				58A6DFC4634B4A00116BA504 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +299,17 @@
 		CDE8D6192197354C00477C2F /* SouthernDraw */ = {
 			isa = PBXGroup;
 			children = (
+				CDC2E61221977D3000B1EA83 /* logo.png */,
 				CDE8D61A2197354C00477C2F /* AppDelegate.swift */,
 				CDE8D61C2197354C00477C2F /* ViewController.swift */,
 				CDE8D61E2197354C00477C2F /* Main.storyboard */,
+				CDC2E6152197811500B1EA83 /* button.png */,
 				CDE8D6212197354C00477C2F /* Assets.xcassets */,
+				CDE8D648219744D300477C2F /* background.jpg */,
+				CDC2E61A21979F4400B1EA83 /* lefthand.png */,
+				CDC2E61021977AE700B1EA83 /* iphoneX.png */,
+				CDC2E61421977F8D00B1EA83 /* Caviar_Dreams_Bold.ttf */,
+				CDC2E61C21979F4C00B1EA83 /* righthand.png */,
 				CDE8D6232197354C00477C2F /* LaunchScreen.storyboard */,
 				CDE8D6262197354C00477C2F /* Info.plist */,
 			);
@@ -110,6 +319,7 @@
 		CDE8D62E2197354C00477C2F /* SouthernDrawTests */ = {
 			isa = PBXGroup;
 			children = (
+				CDB579B121975A1700F8B1E1 /* Source */,
 				CDE8D62F2197354C00477C2F /* SouthernDrawTests.swift */,
 				CDE8D6312197354C00477C2F /* Info.plist */,
 			);
@@ -132,9 +342,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDE8D63F2197354C00477C2F /* Build configuration list for PBXNativeTarget "SouthernDraw" */;
 			buildPhases = (
+				844606A65DFC00DC03AE5665 /* [CP] Check Pods Manifest.lock */,
 				CDE8D6132197354C00477C2F /* Sources */,
 				CDE8D6142197354C00477C2F /* Frameworks */,
 				CDE8D6152197354C00477C2F /* Resources */,
+				099224DBE89B1FEBB1665CAA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +361,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDE8D6422197354C00477C2F /* Build configuration list for PBXNativeTarget "SouthernDrawTests" */;
 			buildPhases = (
+				1F410EE0131ED6AF5E0EC9D3 /* [CP] Check Pods Manifest.lock */,
 				CDE8D6272197354C00477C2F /* Sources */,
 				CDE8D6282197354C00477C2F /* Frameworks */,
 				CDE8D6292197354C00477C2F /* Resources */,
@@ -167,6 +380,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CDE8D6452197354C00477C2F /* Build configuration list for PBXNativeTarget "SouthernDrawUITests" */;
 			buildPhases = (
+				CA126828D49D92C07AFE4104 /* [CP] Check Pods Manifest.lock */,
 				CDE8D6322197354C00477C2F /* Sources */,
 				CDE8D6332197354C00477C2F /* Frameworks */,
 				CDE8D6342197354C00477C2F /* Resources */,
@@ -188,7 +402,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Patrick Beninga";
 				TargetAttributes = {
 					CDE8D6162197354C00477C2F = {
@@ -232,7 +446,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC2E6162197811500B1EA83 /* button.png in Resources */,
 				CDE8D6252197354C00477C2F /* LaunchScreen.storyboard in Resources */,
+				CDC2E61121977AE700B1EA83 /* iphoneX.png in Resources */,
+				CDC2E61B21979F4500B1EA83 /* lefthand.png in Resources */,
+				CDC2E61D21979F4D00B1EA83 /* righthand.png in Resources */,
+				CDC2E61921979E2E00B1EA83 /* Caviar_Dreams_Bold.ttf in Resources */,
+				CDC2E61321977D3000B1EA83 /* logo.png in Resources */,
+				CDE8D649219744D300477C2F /* background.jpg in Resources */,
 				CDE8D6222197354C00477C2F /* Assets.xcassets in Resources */,
 				CDE8D6202197354C00477C2F /* Main.storyboard in Resources */,
 			);
@@ -254,6 +475,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		099224DBE89B1FEBB1665CAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SouthernDraw/Pods-SouthernDraw-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SouthernDraw/Pods-SouthernDraw-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F410EE0131ED6AF5E0EC9D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SouthernDrawTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		844606A65DFC00DC03AE5665 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SouthernDraw-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA126828D49D92C07AFE4104 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SouthernDrawUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CDE8D6132197354C00477C2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,7 +566,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDB579E321975A1700F8B1E1 /* SocketManagerSpec.swift in Sources */,
+				CDB579DD21975A1700F8B1E1 /* SocketEngineClient.swift in Sources */,
+				CDB579E621975A1700F8B1E1 /* SocketExtensions.swift in Sources */,
+				CDB579DC21975A1700F8B1E1 /* SocketEngine.swift in Sources */,
+				CDB579DA21975A1700F8B1E1 /* SocketIOStatus.swift in Sources */,
+				CDB579D321975A1700F8B1E1 /* SocketAckManager.swift in Sources */,
+				CDB579E821975A1700F8B1E1 /* SocketStringReader.swift in Sources */,
+				CDB579DB21975A1700F8B1E1 /* SocketRawView.swift in Sources */,
 				CDE8D6302197354C00477C2F /* SouthernDrawTests.swift in Sources */,
+				CDB579D721975A1700F8B1E1 /* SocketIOClientConfiguration.swift in Sources */,
+				CDB579EA21975A1700F8B1E1 /* SSLSecurity.swift in Sources */,
+				CDB579DF21975A1700F8B1E1 /* SocketEnginePollable.swift in Sources */,
+				CDB579D521975A1700F8B1E1 /* SocketEventHandler.swift in Sources */,
+				CDB579E421975A1700F8B1E1 /* SocketPacket.swift in Sources */,
+				CDB579E121975A1700F8B1E1 /* SocketEngineWebsocket.swift in Sources */,
+				CDB579D921975A1700F8B1E1 /* SocketIOClientSpec.swift in Sources */,
+				CDB579D621975A1700F8B1E1 /* SocketIOClient.swift in Sources */,
+				CDB579E021975A1700F8B1E1 /* SocketEngineSpec.swift in Sources */,
+				CDB579E921975A1700F8B1E1 /* SocketTypes.swift in Sources */,
+				CDB579DE21975A1700F8B1E1 /* SocketEnginePacketType.swift in Sources */,
+				CDB579E721975A1700F8B1E1 /* SocketLogger.swift in Sources */,
+				CDB579D421975A1700F8B1E1 /* SocketAnyEvent.swift in Sources */,
+				CDB579D821975A1700F8B1E1 /* SocketIOClientOption.swift in Sources */,
+				CDB579E221975A1700F8B1E1 /* SocketManager.swift in Sources */,
+				CDB579D221975A1700F8B1E1 /* SocketAckEmitter.swift in Sources */,
+				CDB579E521975A1700F8B1E1 /* SocketParsable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +652,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -336,6 +660,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -386,6 +711,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -393,6 +719,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -424,10 +751,11 @@
 		};
 		CDE8D6402197354C00477C2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81B0429A1802123CB9F7EA64 /* Pods-SouthernDraw.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UW43L4RC6S;
+				DEVELOPMENT_TEAM = N2QVU66C78;
 				INFOPLIST_FILE = SouthernDraw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Beninga.SouthernDraw;
@@ -439,10 +767,11 @@
 		};
 		CDE8D6412197354C00477C2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941D3AFF7957E7F5A6D9801D /* Pods-SouthernDraw.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UW43L4RC6S;
+				DEVELOPMENT_TEAM = N2QVU66C78;
 				INFOPLIST_FILE = SouthernDraw/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Beninga.SouthernDraw;
@@ -454,6 +783,7 @@
 		};
 		CDE8D6432197354C00477C2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A90AC9AFD0FB195887804958 /* Pods-SouthernDrawTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +801,7 @@
 		};
 		CDE8D6442197354C00477C2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420AC555E273FAE7B4515DA0 /* Pods-SouthernDrawTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +819,7 @@
 		};
 		CDE8D6462197354C00477C2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9991A1941772F91F9D161B92 /* Pods-SouthernDrawUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +836,7 @@
 		};
 		CDE8D6472197354C00477C2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746AD475FE3B5D79E9B49DF0 /* Pods-SouthernDrawUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
